@@ -36,6 +36,8 @@ const Login = () => {
                             <div className="card-body">
                                 <h5 className="text-center">Sign In</h5>
                                 <br/>
+                                <p className='text-danger'>Hints user: monayemhossain123@gmail.com</p>
+                                <p className='text-danger'> pass: 123456</p>
                                 <input ref={(input)=>emailRef =input} type="email" placeholder="User Email" className="animated form-control fadeInUp"/>
                                 <br/>
                                 <input  ref={(input)=>passRef=input} type="password" placeholder="User Password" className="animated form-control fadeInUp"/>
